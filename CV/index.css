@@ -1,0 +1,104 @@
+body{
+    background-color : #F7DE58;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : nowrap
+}
+
+#logo {
+    justify-content: center;
+    max-width: 150px;
+    height: auto;
+}
+
+h1{
+    color:#0E0A49;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #0E0A49;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.japon {
+    padding-right: 5px;
+}
+.images {
+    max-width: 30%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+article .flex{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cuisine {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.magic {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.musique {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #0E0A49;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.titrecentre {
+    text-align: center;
+}
+.image2 {
+    max-width: 40%;
+    height: auto;
+}
+
+p {
+    color: #0E0A49;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer {
+    color: #0E0A49;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.illustration {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+section{
+    display: block;
+}
+
+.pays h3 {
+
+    
+}
