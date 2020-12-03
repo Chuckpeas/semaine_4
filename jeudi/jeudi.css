@@ -1,0 +1,74 @@
+body {
+    background-color: grey;
+}
+header {
+    background: white;
+    margin: 5px;
+}
+
+.cabane {
+    display: flex;
+    justify-content: center;
+
+}
+
+header img {
+    height: 80px;
+}
+
+.jardinleft {
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.jardinleft img{
+    height: 150px;
+}
+
+.mere1 {
+    display: flex;
+    justify-content: column;
+}
+
+.mere2 {
+    display: flex;
+    justify-content: column;
+}
+
+.tree {
+    width: 400px ;
+    background-color: white;
+    margin: 5px;
+}
+
+.tree img{
+    height: 330px;
+}
+
+.arbre {
+    display: flex;
+    justify-content: center;
+}
+
+.jardinright {
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.jardinright img{
+    height: 150px;
+}
+
+
+
+.secondepartie {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
